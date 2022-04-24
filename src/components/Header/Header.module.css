@@ -1,0 +1,23 @@
+.header {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mainHeading {
+  color: white;
+  margin: 0;
+  font-size: 8rem;
+}
+
+.subHeading {
+  color: white;
+  font-size: 5rem;
+  font-weight: bolder;
+  background: #a62b89;
+  background: linear-gradient(to right, #a62b89 0%, #1da0cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

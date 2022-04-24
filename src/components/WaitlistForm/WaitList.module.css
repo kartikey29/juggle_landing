@@ -1,0 +1,14 @@
+.form .email {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 83%;
+  margin-top: 10px;
+}
+
+.form input {
+  width: 40%;
+  padding: 10px;
+  height: 40px;
+  margin: 0 5px;
+}

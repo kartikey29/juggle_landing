@@ -1,0 +1,31 @@
+.Body {
+  color: white;
+}
+
+.hand {
+  width: 70%;
+  margin: 100px auto;
+}
+.Bodytext {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+}
+
+.Bodytext h2 {
+  font-size: 4rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.Bodytext p {
+  font-size: 1.4rem;
+  line-height: 25px;
+}
+
+.cardcontainer {
+  width: 70%;
+}
+
+button {
+  color: black;
+}

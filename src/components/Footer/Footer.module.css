@@ -1,0 +1,41 @@
+.footer {
+  margin: 100px auto;
+  text-align: left;
+  width: 60%;
+  color: white;
+  position: relative;
+}
+p {
+  font-size: 1.5rem;
+}
+p span {
+  display: block;
+}
+h3 {
+  font-size: 3.5rem;
+}
+
+.icongrp {
+  font-size: 3rem;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+}
+.icon {
+  margin: 0 5px;
+}
+
+.copywrite {
+  text-align: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 663px) {
+  .icongrp {
+    display: block;
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+    font-size: 2.8rem;
+  }
+}
