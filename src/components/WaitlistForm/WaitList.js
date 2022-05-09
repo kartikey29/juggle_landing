@@ -3,18 +3,30 @@ import classes from "./WaitList.module.css";
 
 const WaitList = () => {
   return (
-    <div>
-      <form className={classes.form}>
-        <input type="text" placeholder="First Name"></input>
-        <input type="text" placeholder="last Name"></input>
-        <input
-          className={classes.email}
-          type="email"
-          placeholder="Email"
-        ></input>
-        <button type="submit">Join Waitlist</button>
-      </form>
-    </div>
+    <>
+      <input class={classes.checkbox} type="checkbox" id="checkbox" />
+      <div class={classes.formContainer}>
+        <form class={classes.form} action="">
+          <input
+            class={classes.forminput}
+            placeholder="E-mail"
+            type="email"
+            pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+            required
+          />
+          <label class={classes.formbuttonLabel} for="checkbox">
+            <button class={classes.formbutton} type="button">
+              Join
+            </button>
+          </label>
+          <label
+            class={classes.formtoggle}
+            for="checkbox"
+            data-title="Join Waitlist"
+          ></label>
+        </form>
+      </div>
+    </>
   );
 };
 

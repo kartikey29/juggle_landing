@@ -8,10 +8,10 @@ const CardGrp = () => {
       <Row xs={1} s={1} md={1} lg={2} className={classes.row}>
         <Col>
           <Card className={classes.card}>
-            <Card.Img className={classes.image} variant="top" src={photo} />
+            <Card.Img variant="top" src={photo} />
             <Card.Body>
               <Card.Title className={classes.title}>Card title</Card.Title>
-              <Card.Text lassName={classes.text}>
+              <Card.Text className={classes.text}>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -25,7 +25,7 @@ const CardGrp = () => {
             <Card.Img variant="top" src={photo} />
             <Card.Body>
               <Card.Title className={classes.title}>Card title</Card.Title>
-              <Card.Text lassName={classes.text}>
+              <Card.Text className={classes.text}>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -39,7 +39,7 @@ const CardGrp = () => {
             <Card.Img variant="top" src={photo} />
             <Card.Body>
               <Card.Title className={classes.title}>Card title</Card.Title>
-              <Card.Text lassName={classes.text}>
+              <Card.Text className={classes.text}>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -53,7 +53,7 @@ const CardGrp = () => {
             <Card.Img variant="top" src={photo} />
             <Card.Body>
               <Card.Title className={classes.title}>Card title</Card.Title>
-              <Card.Text lassName={classes.text}>
+              <Card.Text className={classes.text}>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.

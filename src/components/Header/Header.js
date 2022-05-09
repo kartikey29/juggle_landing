@@ -5,8 +5,10 @@ const Header = () => {
   return (
     <div className={classes.header}>
       <span className={classes.headingWrapper}>
-        <h1 className={classes.mainHeading}>App Name</h1>
-        <h1 className={classes.subHeading}>Sub Heading</h1>
+        <h1 className={classes.mainHeading}>Juggle</h1>
+        <h1 className={classes.subHeading}>
+          Reinventing Your Shopping Experience
+        </h1>
       </span>
     </div>
   );

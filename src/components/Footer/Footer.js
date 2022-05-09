@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <div className={classes.footer}>
-        <h3>App Name</h3>
+        <h3>Juggle</h3>
         <p>
           services are provided by <span>Envelope Money, Inc.</span>
         </p>
@@ -30,7 +30,7 @@ const Footer = () => {
         </p>
       </div>
       <div className={classes.copywrite}>
-        <p>Copywrite © 2022</p>
+        <p>Juggle © 2022</p>
       </div>
     </>
   );
