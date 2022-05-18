@@ -61,4 +61,8 @@ h3 {
     color: white;
     position: relative;
   }
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
 }
