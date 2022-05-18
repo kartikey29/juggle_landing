@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "typo-round";
+  src: local("typo-round"),
+    url(./font/Typo_Round_Bold_Demo.otf) format("truetype");
+}

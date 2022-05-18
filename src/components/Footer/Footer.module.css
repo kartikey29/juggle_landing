@@ -1,10 +1,21 @@
 .footer {
   margin: 100px auto;
   text-align: left;
-  width: 60%;
+  width: 75%;
   color: white;
   position: relative;
 }
+
+.container {
+  width: 80%;
+  padding: 1rem 1rem 0 1rem;
+  background-color: #161616;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0;
+  margin: 0 auto;
+}
+
 p {
   font-size: 1rem;
 }
@@ -27,7 +38,12 @@ h3 {
 
 .copywrite {
   text-align: center;
+  color: #707070;
   position: relative;
+}
+
+.copywrite p {
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 663px) {

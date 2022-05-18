@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import classes from "./Carousel.module.css";
-import Phone1 from "../../images/___-Dark-Purple-Juggle-V2.png";
-import Phone2 from "../../images/___-Dark-Purple-Juggle-V2__1_.png";
-import Phone3 from "../../images/___-Dark-Purple-Juggle-V2__2_.png";
+import Phone1 from "../../images/_-Dark-Purple-Juggle-V2.svg";
+import Phone2 from "../../images/_-Dark-Purple-Juggle-V2_1_.svg";
+import Phone3 from "../../images/_-Dark-Purple-Juggle-V2_2_.svg";
 
 const CarouselCustom = () => {
   return (

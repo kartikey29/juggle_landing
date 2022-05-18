@@ -1,23 +1,25 @@
 .Body {
   color: white;
+  margin-bottom: 7rem;
 }
 
 .Bodytext {
   display: block;
-  width: 50%;
+  width: 45%;
   margin: 20px;
+  margin-bottom: 10rem;
   margin-left: 18%;
   text-align: left;
 }
 
 .Bodytext h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0;
   margin-bottom: 10px;
 }
 .Bodytext p {
-  font-size: 1rem;
-  line-height: 25px;
+  font-size: 1.2rem;
+  /* line-height: 20px; */
 }
 
 button {

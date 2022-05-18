@@ -5,14 +5,13 @@
 
 .row {
   color: white;
-  width: 70%;
+  /* width: 95%; */
   margin: 0 auto;
 }
 
 .card {
   margin: 10px;
   width: 90%;
-  background-color: #2d9eea;
   border-radius: 15px;
   padding: 30px;
   padding-bottom: 40px;
