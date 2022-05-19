@@ -2,7 +2,7 @@
   margin: 100px auto;
   text-align: left;
   width: 75%;
-  color: white;
+  color: #e2dbdb;
   position: relative;
 }
 
@@ -45,6 +45,12 @@ h3 {
 
 .copywrite p {
   margin-bottom: 0;
+}
+
+.footer img {
+  border-radius: 5px;
+  width: 3.5rem;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 663px) {

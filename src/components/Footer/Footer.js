@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import icon from "../../images/juggleIcon.png";
 import {
   faInstagram,
   faLinkedin,
@@ -11,6 +12,7 @@ const Footer = () => {
     <>
       <div className={classes.container}>
         <div className={classes.footer}>
+          <img src={icon} alt="juggle icon"></img>
           <h3>Juggle</h3>
           <p>
             services are provided by <span>Juggle Inc.</span>

@@ -6,8 +6,15 @@
 
 body {
   background-color: black;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
   background-image: url("./images/pattern.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+}
+
+@media only screen and (max-width: 612px) {
+  body {
+    background-size: auto;
+  }
 }

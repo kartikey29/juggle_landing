@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import classes from "./Card.module.css";
-import notificationPhoto from "../images/notification.svg";
+import notificationPhoto from "../images/notification.png";
 import tagPhoto from "../images/tag-solid.svg";
 import barcodePhoto from "../images/barcode.svg";
 const cardData = [
