@@ -39,3 +39,9 @@
 .Navbar button:hover {
   background-color: purple;
 }
+
+@media only screen and (max-width: 663px) {
+  .Navholder {
+    width: 90%;
+  }
+}
