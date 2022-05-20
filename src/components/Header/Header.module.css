@@ -29,6 +29,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.callToAction {
+  position: relative;
+}
+
+.headerPara {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%, 0);
+  color: #e5e4e2;
+}
 
 @media only screen and (max-width: 612px) {
   .mainHeading {
@@ -36,5 +48,9 @@
   }
   .subHeading {
     font-size: 1.5rem;
+  }
+  .headerPara {
+    width: 100%;
+    font-size: 0.8rem;
   }
 }

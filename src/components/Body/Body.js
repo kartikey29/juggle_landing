@@ -13,11 +13,13 @@ const Body = () => {
         <p>
           We believe in making your shopping experience Smart & Frictionless.
         </p>
+        <p>Where knowing offers is as simple as ever.</p>
         <p>
-          You don’t have to go from store to store to know the best Deals &
-          Offers.
+          Where more time can be saved by avoiding long queues at the billing
+          counter.
         </p>
-        <p>You don’t have to stand in Long Queues for billing.</p>
+        <br></br>
+        <p>We believe that you don't need to JUGGLE from store to store.</p>
       </div>
       <Card />
     </div>

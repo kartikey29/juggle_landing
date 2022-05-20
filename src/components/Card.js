@@ -14,14 +14,14 @@ const cardData = [
   {
     scr: tagPhoto,
     title: "Deals and Offers",
-    imgStyle: { width: "80px", margin: "0 auto" },
+    imgStyle: { width: "75px", margin: "0 auto" },
     text: "Never miss a deal again! Just open our app and know the best OFFERS available",
     cardStyle: { backgroundColor: "#E78F4C" },
   },
   {
     scr: barcodePhoto,
     title: "Scan & Go!",
-    imgStyle: { width: "80px", margin: "0 auto" },
+    imgStyle: { width: "85px", margin: "0 auto" },
     text: "Skip the long queue at the checkout. Just GRAB the item. Scan the barcode PAY and GO",
     cardStyle: { backgroundColor: "#16B464" },
   },
