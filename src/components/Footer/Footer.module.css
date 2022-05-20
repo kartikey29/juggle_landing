@@ -72,4 +72,7 @@ h3 {
     width: 100%;
     border-radius: 0;
   }
+  .copywrite p {
+    font-size: 0.9rem;
+  }
 }

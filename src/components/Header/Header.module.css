@@ -42,7 +42,7 @@
   color: #e5e4e2;
 }
 
-@media only screen and (max-width: 612px) {
+@media only screen and (max-width: 663px) {
   .mainHeading {
     font-size: 7rem;
   }

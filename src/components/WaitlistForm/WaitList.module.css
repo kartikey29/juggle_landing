@@ -72,10 +72,10 @@ body {
 }
 .formtoggle {
   background: transparent;
-  color: rgb(162, 87, 233);
+  color: #9e12da;
   top: 0;
   cursor: pointer;
-  border: 2px solid rgb(162, 87, 233);
+  border: 2px solid #9e12da;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ body {
 .forminput {
   color: rgb(114, 114, 114);
   background-color: transparent;
-  border: 2px solid rgb(162, 87, 233);
+  border: 2px solid #9e12da;
   height: 100%;
   width: 100%;
   padding: 0 0.714em;
@@ -140,6 +140,6 @@ body {
   margin-left: 10px;
   height: 100%;
   width: 5em;
-  border: 2px solid rgb(162, 87, 233);
+  border: 2px solid #9e12da;
   background-color: transparent;
 }
