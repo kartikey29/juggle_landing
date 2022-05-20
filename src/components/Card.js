@@ -5,12 +5,7 @@ import notificationPhoto from "../images/notification.png";
 import tagPhoto from "../images/tag-solid.svg";
 import barcodePhoto from "../images/barcode.svg";
 const cardData = [
-  {
-    scr: notificationPhoto,
-    title: "Get Notification",
-    text: "About personailsed deals and offers from your favourite brands and stores",
-    cardStyle: { backgroundColor: "#2d9eea" },
-  },
+ 
   {
     scr: tagPhoto,
     title: "Deals and Offers",
@@ -24,6 +19,12 @@ const cardData = [
     imgStyle: { width: "85px", margin: "0 auto" },
     text: "Skip the long queue at the checkout. Just GRAB the item. Scan the barcode PAY and GO",
     cardStyle: { backgroundColor: "#16B464" },
+  },
+  {
+    scr: notificationPhoto,
+    title: "Get Notification",
+    text: "About personailsed deals and offers from your favourite brands and stores",
+    cardStyle: { backgroundColor: "#2d9eea" },
   },
 ];
 
