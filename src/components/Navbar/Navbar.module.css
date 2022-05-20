@@ -1,0 +1,41 @@
+.Navbar {
+  width: 100%;
+  padding: 0;
+  position: fixed;
+  z-index: 2;
+  height: 3.2rem;
+  backdrop-filter: blur(3px);
+}
+
+.Navholder {
+  width: 70%;
+  margin: 0 auto;
+  height: 3.2rem;
+  position: relative;
+}
+
+.Navbar h2 {
+  color: purple;
+  font-family: typo-round;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.Navbar button {
+  position: absolute;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  border: solid purple 2px;
+  border-radius: 20px;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.Navbar button:hover {
+  background-color: purple;
+}
