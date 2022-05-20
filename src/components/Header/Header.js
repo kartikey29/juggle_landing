@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <div className={classes.callToAction}>
         <p className={classes.headerPara}>
-          Register now to get 20% Discount on your First Purchace!
+          Register now to get 20% Discount on your First Purchase!
         </p>
         <FormHolder />
       </div>
