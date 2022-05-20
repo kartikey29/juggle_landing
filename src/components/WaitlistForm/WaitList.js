@@ -9,7 +9,7 @@ const WaitList = () => {
         <form class={classes.form} action="">
           <input
             class={classes.forminput}
-            placeholder="E-mail"
+            placeholder="Enter your email"
             type="email"
             pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
             required
@@ -22,7 +22,7 @@ const WaitList = () => {
           <label
             class={classes.formtoggle}
             for="checkbox"
-            data-title="Join Waitlist"
+            data-title="Register Now"
           ></label>
         </form>
       </div>
