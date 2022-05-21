@@ -17,7 +17,7 @@ const cardData = [
     scr: barcodePhoto,
     title: "Scan & Go!",
     imgStyle: { width: "85px", margin: "0 auto" },
-    text: "Skip the long queue at the checkout. Just GRAB the item. Scan the barcode PAY and GO",
+    text: "Skip the long queue at the checkout. Just GRAB the item. Scan the barcode with our app, PAY and GO",
     cardStyle: { backgroundColor: "#16B464" },
   },
   {
