@@ -1,0 +1,44 @@
+.modal input {
+  padding: 10px;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: black;
+  border: 2px solid purple;
+  border-radius: 20px;
+}
+.modal button {
+  margin: 10px;
+  padding: 0 20px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 3px;
+  height: 50px;
+  font-size: 1rem;
+  border: 2px solid purple;
+  color: white;
+  background-color: black;
+}
+.modal button:hover {
+  background-color: purple;
+}
+
+.body {
+  background-color: #16181b;
+  color: white;
+}
+
+.modal-body {
+  border-radius: 20px;
+}
+
+.modal-content {
+  border-radius: 25px;
+}
+
+.modal input:focus {
+  outline: none;
+  /* border: 2px solid purple; */
+}

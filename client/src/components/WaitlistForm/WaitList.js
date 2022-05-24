@@ -1,28 +1,52 @@
 import React from "react";
+import { useState } from "react";
 import classes from "./WaitList.module.css";
+import api from "../../api";
 
-const WaitList = () => {
+const WaitList = (props) => {
+  const [email, setEmail] = useState("");
+
+  const changeHandler = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const clickHandler = async (e) => {
+    if (email !== "") {
+      const response = await api.post("/waitlist", { email });
+      props.changeSubmit();
+      console.log(response);
+    }
+  };
+
   return (
     <>
-      <input class={classes.checkbox} type="checkbox" id="checkbox" />
-      <div class={classes.formContainer}>
-        <form class={classes.form} action="">
+      <input
+        className={classes.checkbox}
+        type="checkbox"
+        onClick={clickHandler}
+        id="checkbox"
+        disabled={props.submitted}
+      />
+      <div className={classes.formContainer}>
+        <form className={classes.form}>
           <input
-            class={classes.forminput}
+            className={classes.forminput}
             placeholder="Enter your email"
             type="email"
+            onChange={changeHandler}
+            value={email}
             pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
             required
           />
-          <label class={classes.formbuttonLabel} for="checkbox">
-            <button class={classes.formbutton} type="button">
+          <label className={classes.formbuttonLabel} for="checkbox">
+            <button className={classes.formbutton} type="button">
               Join
             </button>
           </label>
           <label
-            class={classes.formtoggle}
+            className={classes.formtoggle}
             for="checkbox"
-            data-title="Register Now"
+            data-title={props.submitted ? "Thank You! 😊" : "Register Now"}
           ></label>
         </form>
       </div>

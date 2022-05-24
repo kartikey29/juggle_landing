@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Header.module.css";
 import FormHolder from "../FormHolder/FormHolder";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
       <div className={classes.header}>
@@ -17,7 +17,10 @@ const Header = () => {
         <p className={classes.headerPara}>
           Register now to get 20% Discount on your First Purchase!
         </p>
-        <FormHolder />
+        <FormHolder
+          submitted={props.submitted}
+          changeSubmit={props.changeSubmit}
+        />
       </div>
     </>
   );
