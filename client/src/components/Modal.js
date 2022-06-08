@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Modal } from "react-bootstrap";
 import api from "../api";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import "./Modal.css";
 
 const MyVerticallyCenteredModal = (props) => {
@@ -28,6 +30,11 @@ const MyVerticallyCenteredModal = (props) => {
     >
       <form onSubmit={submitHandler}>
         <Modal.Body className="body">
+          <FontAwesomeIcon
+            icon={faXmark}
+            className="xmark"
+            onClick={props.onHide}
+          />
           <h2>Get Notified</h2>
           <p>
             Sign up to be notified as soon as Juggle is available in the App
