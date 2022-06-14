@@ -3,12 +3,13 @@ import React from "react";
 import Card from "../Card";
 import classes from "./Body.module.css";
 import CarouselCustom from "./Carousel";
+import TransitionDiv from "../UI/TransitionDiv";
 
 const Body = () => {
   return (
     <div className={classes.Body}>
       <CarouselCustom />
-      <div className={classes.Bodytext}>
+      <TransitionDiv className={classes.Bodytext}>
         <h2>Save time & money</h2>
         <p>
           We believe in making your shopping experience Smart & Frictionless.
@@ -20,7 +21,7 @@ const Body = () => {
         </p>
         <br></br>
         <p>We believe that you don't need to JUGGLE from store to store.</p>
-      </div>
+      </TransitionDiv>
       <Card />
     </div>
   );

@@ -7,9 +7,10 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import TransitionDiv from "../UI/TransitionDiv";
 const Footer = () => {
   return (
-    <>
+    <TransitionDiv>
       <div className={classes.container}>
         <div className={classes.footer}>
           <img src={icon} alt="juggle icon"></img>
@@ -36,7 +37,7 @@ const Footer = () => {
           <p>Copyright © 2022 Juggle,Inc. All rights reserved.</p>
         </div>
       </div>
-    </>
+    </TransitionDiv>
   );
 };
 
